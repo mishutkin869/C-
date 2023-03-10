@@ -1,23 +1,27 @@
-﻿// Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, 
+﻿// Задача 5: Напишите программу, которая на вход принимает два числа и выдаёт, 
 // какое число большее, а какое меньшее.
 
 // a = 5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Введите текст:");
-int number1 = Convert.ToInt32(Console.ReadLine());
-int number2 = Convert.ToInt32(Console.ReadLine());
-if (number1>number2);
-{
-    max = number1;
-}
-else
-    max = number2;
-Console.WriteLine("max");
+// Console.WriteLine("Введите текст:");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// int number2 = Convert.ToInt32(Console.ReadLine());
+// if (number1>number2)
+// {
+//     Console.WriteLine("Наибольшее число {number1}"); 
+// }
+// else
+// {
+//     Console.WriteLine("Наибольшее число {number2}");
+// }
 
 
-// Задача 4: Напишите программу, которая принимает на вход три числа 
+
+
+
+// Задача 6: Напишите программу, которая принимает на вход три числа 
 // и выдаёт максимальное из этих чисел.
 
 // 2, 3, 7 -> 7
@@ -30,6 +34,8 @@ Console.WriteLine("max");
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на 
 // выходе показывает все чётные числа от 1 до N.
@@ -122,3 +128,16 @@ Console.WriteLine("max");
 // }
 
 // Задача 4
+// Напишите программу, которая на вход принимает одно число 
+//(N), а на выходе показывает все целые числа в промежутке от -N до N.
+// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
+// 2 -> " -2, -1, 0, 1, 2"
+
+Console.WriteLine("Введите числа");
+int number1 = Convert.ToInt32(Console.ReadLine());
+int numberNeg=-number1;
+while(numberNeg<=number1)
+{
+    Console.WriteLine(numberNeg);
+    numberNeg=numberNeg+1;
+}
