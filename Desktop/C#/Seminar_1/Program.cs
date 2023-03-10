@@ -1,39 +1,76 @@
-﻿// Задача 5: Напишите программу, которая на вход принимает два числа и выдаёт, 
+﻿// Задача 2
+// Напишите программу, которая на вход принимает два числа и выдаёт, 
 // какое число большее, а какое меньшее.
 
 // a = 5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-// Console.WriteLine("Введите текст:");
+// Console.WriteLine("Введите два числа, чтобы найти большее из них:");
 // int number1 = Convert.ToInt32(Console.ReadLine());
 // int number2 = Convert.ToInt32(Console.ReadLine());
 // if (number1>number2)
 // {
-//     Console.WriteLine("Наибольшее число {number1}"); 
+//     Console.WriteLine(number1); 
 // }
 // else
 // {
-//     Console.WriteLine("Наибольшее число {number2}");
+//     Console.WriteLine(number2);
 // }
 
 
 
 
-
-// Задача 6: Напишите программу, которая принимает на вход три числа 
+// Задача 4
+// Напишите программу, которая принимает на вход три числа 
 // и выдаёт максимальное из этих чисел.
 
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
+
+Console.WriteLine("Введите три числa, чтобы определить максимальное из них:");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+int maximum = a;
+    if (a > b)
+    {
+        maximum = a;
+    }
+    else
+    {
+        maximum = b;
+    }
+if (c>maximum)
+    {
+    maximum=c;
+    }
+Console.WriteLine("Мы нашли максимальное число! И это...");
+Console.WriteLine(maximum);
+
+
+
+// Задача
+// Напишите программу, которая на вход принимает число и выдаёт, 
 // является ли число чётным (делится ли оно на два без остатка).
 
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+// Console.WriteLine("Введите число, чтобы найти четное:");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+
+// if(number1%2==0)
+// {
+//     Console.WriteLine("Является четным числом");
+// }
+// else
+// {
+//     Console.WriteLine("Не является четным числом");
+// }
 
 
 
@@ -43,8 +80,23 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+// Console.WriteLine("Введите число:");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// int i = 1;
+
+// while(i<=number1)
+// {
+//     {
+//         if (i%2==0)
+//         Console.WriteLine(i);
+//     };
+
+//     i+=1;
+// }
 
 
+
+// ЗАДАЧИ НА СЕМИНАРЕ 1 В ПРОЦЕССЕ УРОКА
 //Задача 1
 //Напишите программу, которая на вход принимает число и выдаёт его квадрат (число умноженное на само себя).
 // Например:
@@ -60,7 +112,7 @@
 // Console.WriteLine(sqt);
 
 
-// Задача 2
+// Задача 1
 // Напишите программу, которая на вход принимает два числа и проверяет, 
 // является ли первое число квадратом второго.
 
@@ -127,17 +179,32 @@
 //     Console.WriteLine("Такого дня недели у нас нет");
 // }
 
-// Задача 4
+
+// Задача 5
 // Напишите программу, которая на вход принимает одно число 
 //(N), а на выходе показывает все целые числа в промежутке от -N до N.
 // 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
 // 2 -> " -2, -1, 0, 1, 2"
 
-Console.WriteLine("Введите числа");
-int number1 = Convert.ToInt32(Console.ReadLine());
-int numberNeg=-number1;
-while(numberNeg<=number1)
-{
-    Console.WriteLine(numberNeg);
-    numberNeg=numberNeg+1;
-}
+// Console.WriteLine("Введите числа");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+
+// int numberNeg=-number1;
+
+// while(numberNeg<=number1)
+// {
+//     Console.WriteLine(numberNeg);
+//     numberNeg=numberNeg+1;
+// }
+
+// Задача 7
+//  Напишите программу, которая принимает на вход трёхзначное 
+// число и на выходе показывает последнюю цифру этого числа.
+// 	456 -> 6
+// 	782 -> 2
+// 	918 -> 8
+
+// Console.WriteLine("Введите число");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// int number2=number1%10;
+// Console.WriteLine(number2);
