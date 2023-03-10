@@ -11,10 +11,12 @@
 // int number2 = Convert.ToInt32(Console.ReadLine());
 // if (number1>number2)
 // {
+//     Console.WriteLine("Мы нашли максимальное число и это...");
 //     Console.WriteLine(number1); 
 // }
 // else
 // {
+//     Console.WriteLine("Мы нашли максимальное число и это число...");
 //     Console.WriteLine(number2);
 // }
 
@@ -30,25 +32,25 @@
 // 22 3 9 -> 22
 
 
-Console.WriteLine("Введите три числa, чтобы определить максимальное из них:");
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = Convert.ToInt32(Console.ReadLine());
-int maximum = a;
-    if (a > b)
-    {
-        maximum = a;
-    }
-    else
-    {
-        maximum = b;
-    }
-if (c>maximum)
-    {
-    maximum=c;
-    }
-Console.WriteLine("Мы нашли максимальное число! И это...");
-Console.WriteLine(maximum);
+// Console.WriteLine("Введите три числa, чтобы определить максимальное из них:");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int b = Convert.ToInt32(Console.ReadLine());
+// int c = Convert.ToInt32(Console.ReadLine());
+// int maximum = a;
+//     if (a > b)
+//     {
+//         maximum = a;
+//     }
+//     else
+//     {
+//         maximum = b;
+//     }
+// if (c>maximum)
+//     {
+//     maximum=c;
+//     }
+// Console.WriteLine("Мы нашли максимальное число! И это...");
+// Console.WriteLine(maximum);
 
 
 
@@ -60,7 +62,8 @@ Console.WriteLine(maximum);
 // -3 -> нет
 // 7 -> нет
 
-// Console.WriteLine("Введите число, чтобы найти четное:");
+
+// Console.WriteLine("Введите число, чтобы определить четное ли оно:");
 // int number1 = Convert.ToInt32(Console.ReadLine());
 
 // if(number1%2==0)
@@ -80,19 +83,19 @@ Console.WriteLine(maximum);
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-// Console.WriteLine("Введите число:");
-// int number1 = Convert.ToInt32(Console.ReadLine());
-// int i = 1;
+Console.WriteLine("Введите число:");
+int number1 = Convert.ToInt32(Console.ReadLine());
+int i = 1;
 
-// while(i<=number1)
-// {
-//     {
-//         if (i%2==0)
-//         Console.WriteLine(i);
-//     };
+while(i<=number1)
+{
+    {
+        if (i%2==0)
+        Console.WriteLine(i);
+    };
 
-//     i+=1;
-// }
+    i+=1;
+}
 
 
 
