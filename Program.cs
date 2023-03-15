@@ -11,7 +11,14 @@
 // int a = num%100;
 // int result = a/10;
 
-// Console.WriteLine("Вторая цифра: " +result);
+// Console.WriteLine("Вторая цифра: " +result); 
+
+
+// Вариант 2 решения задачи 10 
+// Console.WriteLine("Введите трехзначное число");
+// string num = Console.ReadLine();
+// Console.WriteLine("Вторая цифра: " +num[1]); 
+
 
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, 
@@ -20,7 +27,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-// Console.WriteLine("Введите число");
+// Console.WriteLine("Введите число: ");
 // string anyNumber=Console.ReadLine();
 
 // if (anyNumber.Length>2)
@@ -41,18 +48,18 @@
 // 7 -> да 
 // 1 -> нет
 
-Console.WriteLine("Введите число, чтобы проверить какой это день недели");
-int dayNum = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число, чтобы проверить какой это день недели");
+// int dayNum = Convert.ToInt32(Console.ReadLine());
 
-if (dayNum==6 || dayNum==7)
-{
-    Console.WriteLine("Наконец-то выходной -> ДА!");
-}
-else if (dayNum <1 || dayNum>7)
-{
-    Console.WriteLine("Это не день недели");
-}
-else Console.WriteLine("Еще надо поработать, этот день не выходной -> НЕТ!");
+// if (dayNum==6 || dayNum==7)
+// {
+//     Console.WriteLine("Наконец-то выходной -> ДА!");
+// }
+// else if (dayNum <1 || dayNum>7)
+// {
+//     Console.WriteLine("Это не день недели");
+// }
+// else Console.WriteLine("Еще надо поработать, этот день не выходной -> НЕТ!");
 
 
 
